@@ -7,6 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <TextBox HorizontalAlignment="Center" Margin="0,94,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="76" Height="19"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,147,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="76" Height="21"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,196,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="76" Height="21"/>
+        <Button Content="Átlag" HorizontalAlignment="Left" Margin="491,134,0,0" VerticalAlignment="Top" Height="37" Width="62" Click="Button_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="244,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="17" Width="113"><Run Text="Új Személy életkora"/><Run Language="hu-hu" Text=":"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="244,149,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="17" Width="113"><Run Text="Minimum Életkor"/><Run Language="hu-hu" Text=":"/><LineBreak/><Run/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="244,196,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="17" Width="113"><Run Text="Maximum Életkor"/><Run Language="hu-hu" Text=":"/><LineBreak/><Run/><LineBreak/><Run/></TextBlock>
 
     </Grid>
 </Window>
